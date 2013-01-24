@@ -3,6 +3,6 @@ from twisted.application.service import ServiceMaker
 Sample = ServiceMaker(
     "HttpMon",
     "httpmon.tap",
-    "Http Monitoring",
+    "A Http Monitoring Web Server.",
     "httpmon"
 )
